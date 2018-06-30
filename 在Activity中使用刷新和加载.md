@@ -45,7 +45,7 @@
         notifyDataSetChanged();//更新显示列表
     }
     
-### 4、给refreshLayout绑定事件监听器
+### 5、给refreshLayout绑定事件监听器
 	refreshLayout.setOnRefreshListener(new OnRefreshListener() {
         @Override
         public void onRefresh(@NonNull RefreshLayout refreshLayout) {
